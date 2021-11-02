@@ -1,0 +1,11 @@
+.App {
+  min-height: 100vh;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

@@ -1,0 +1,50 @@
+@media (max-width: 900px) {
+	.Meanings {
+		height: 60vh;
+	}
+}
+
+.Audio {
+	max-width: 60vw;
+	background-color: #fff;
+	border-radius: 7px;
+	border: 1px solid #fff;
+	margin-bottom: 20px;
+}
+
+.Meanings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scrollbar-width: thin;
+	height: 55vh;
+	border: 3px solid rgb(105, 105, 105);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.SubTitle {
+	font-size: 5vw;
+}
+
+.SingleMeaning {
+	min-width: 100%;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	color: #000;
+	padding: 0.8rem;
+	margin-bottom: 15px;
+}
+
+.Define {
+	font-weight: 300;
+}
+
+.Define p {
+	font-weight: 500;
+	letter-spacing: 1px;
+}
